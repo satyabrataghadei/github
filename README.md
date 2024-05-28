@@ -3,8 +3,4 @@ resource "aws_instance" "name" {
     instance_type = var.instance_type
     key_name = var.keyname
 
-    tags = {
-      Name = "newtag"
-    }
-  
-}
+   
